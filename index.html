@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Leo You</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -18,87 +19,152 @@
   	        <span class="icon-bar"></span>
   	        <span class="icon-bar"></span>
   	      </button>
-  				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture"></span> LEO YOU</a>
+  				<a href="#" class="navbar-brand"><span class="fa fa-globe"></span> LEO YOU</a>
   			</div>
   			<div class="collapse navbar-collapse" id="bs-nav-demo">
   				<ul class="nav navbar-nav">
-  					<li><a href="#">About Me</a></li>
+  					<li><a href="#about">About Me</a></li>
   					<li><a href="#">Contact</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#section">Portfolio</a></li>
   				</ul>
   			</div>
   		</div>
 	  </nav>
 
+    <div id="photo" class="row">
+      <div class="col-lg-12">
+        <div class="content">
+          <h1>LEO YOU</h1>
+          <h3>WEB DEVELOPER | CODE LOVER</h3>
+          <hr>
+          <a href="https://www.linkedin.com/feed/">
+            <button class="btn btn-default btn-lg left"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</button>
+          </a>
+          <a href="https://github.com/YehongYou">
+           <button class="btn btn-default btn-lg right"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
 
-      <div id="photo" class="row">
-        <div class="col-lg-12">
-          <div class="content">
-            <h1>LEO YOU</h1>
-            <h3>WEB DEVELOPER | CODE LOVER</h3>
-            <hr>
-            <a href="https://www.linkedin.com/feed/">
-              <button class="btn btn-default btn-lg left"><img class="linkedin" src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" width='20' height='20' /> LinkedIn</button>
-            </a>
-            <a href="https://github.com/YehongYou">
-            <button class="btn btn-default btn-lg right"><img class="github" src="https://image.flaticon.com/icons/svg/25/25231.svg" width='20' height='20' /> GitHub</button>
-            </a>
-          </div>
-        </div>
+      <div id="section" class="row">
+         <h1>Portfolio</h1>
+         <br />
       </div>
 
       <div id="portfolio" class="row">
            <div class="col-lg-4 col-sm-6">
+             <a href="http://yehongyou.github.io/TicTacToe/">
              <div class="thumbnail">
-               <img src="http://i.imgur.com/qK42fUu.jpg">
+               <img src="images/project01.png">
              </div>
-           </div>
-           <div class="col-lg-4 col-sm-6">
-             <div class="thumbnail">
-               <img src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
-             </div>
-           </div>
-           <div class="col-lg-4 col-sm-6">
-             <div class="thumbnail">
-               <img src="https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
-             </div>
-           </div>
-           <div class="col-lg-4 col-sm-6">
-             <div class="thumbnail">
-               <img src="https://images.unsplash.com/photo-1439524970634-649c37a69e5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1450&h=825&fit=crop&s=bfda9916c885869b43b70738693428d9">
-             </div>
-           </div>
-           <div class="col-lg-4 col-sm-6">
-             <div class="thumbnail">
-               <img src="https://images.unsplash.com/photo-1444090542259-0af8fa96557e?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
-             </div>
-           </div>
-           <div class="col-lg-4 col-sm-6">
-             <div class="thumbnail">
-               <img src="https://images.unsplash.com/photo-1434543177303-ef2cc7707e0d?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450">
+             </a>
+             <p class='projectintro'>
+               <strong>TicTacToe Game</strong> <br>
+               This app let people play TicTacToe on computer
+             </p>
+             <div class='projectBtns'>
+               <div>
+               <a href="http://yehongyou.github.io/TicTacToe/"><button class='projectBtn demoBtn'><span>Demo</span></button></a>
+               <a href="https://github.com/YehongYou/TicTacToe"><button class='projectBtn githubBtn'><span>GitHub</span></button></a>
+               </div>
              </div>
            </div>
 
+           <div class="col-lg-4 col-sm-6 project">
+             <a href="https://code-play-wdi-conference.herokuapp.com/#b">
+             <div class="thumbnail">
+               <img src="images/project02.jpeg">
+             </div>
+             </a>
+             <p class='projectintro'>
+               <strong>WDI Conference</strong> <br>
+               WDI Conference is a mock technology conference
+             </p>
+             <div class='projectBtns'>
+             <a href="https://code-play-wdi-conference.herokuapp.com/#b"><button class='projectBtn demoBtn'><span>Demo</span></button></a>
+             <a href="https://github.com/YehongYou/CodePlay_wdi_conference"><button class='projectBtn githubBtn'><span>GitHub</span></button></a>
+             </div>
+           </div>
 
+           <div class="col-lg-4 col-sm-6">
+             <a href="https://happyhomeagent.herokuapp.com/">
+             <div class="thumbnail">
+               <img src="images/project03.png">
+             </div>
+             </a>
+             <p class='projectintro'>
+               <strong>HappyHome Agent</strong> <br>
+               Helping users find home for living or find their future tenants.
+             </p>
+             <div class='projectBtns'>
+             <a href="https://happyhomeagent.herokuapp.com/"><button class='projectBtn demoBtn'><span>Demo</span></button></a>
+             <a href="https://github.com/YehongYou/homeagent"><button class='projectBtn githubBtn'><span>GitHub</span></button></a>
+             </div>
+           </div>
+
+           <div class="col-lg-4 col-sm-6">
+             <a href="https://dusktilldawn.herokuapp.com">
+             <div class="thumbnail">
+               <img src="images/project04.png">
+             </div>
+             </a>
+             <p class='projectintro'>
+               <strong>Dusk Till Dawn</strong> <br>
+               Users searching for events happening in Melbourne
+             </p>
+             <div class='projectBtns'>
+             <a href="https://dusktilldawn.herokuapp.com"><button class='projectBtn demoBtn'><span>Demo</span></button></a>
+             <a href="https://github.com/YehongYou/dusktilldawn"><button class='projectBtn githubBtn'><span>GitHub</span></button></a>
+             </div>
+           </div>
+
+           <div class="col-lg-4 col-sm-6">
+             <a href="http://www.aoyou.com.au/">
+             <div class="thumbnail">
+               <img src="images/project05.png">
+             </div>
+             </a>
+             <p class='projectintro'>
+               <strong>Aoyou</strong> <br>
+               A travelling company's theme website.
+             </p>
+             <div class='projectBtns'>
+             <a href="http://www.aoyou.com.au/"><button class='projectBtn demoBtn'><span>Demo</span></button></a>
+             <a href="http://www.aoyou.com.au/"><button class='projectBtn githubBtn'><span>GitHub</span></button></a>
+             </div>
+           </div>
 
        </div>
 
-       <div id="about" class="row">
-         <div class="col-lg-12">
-           <div class="content">
-             <h1>LEO YOU</h1>
-             <h3>WEB DEVELOPER | CODE LOVER</h3>
-             <hr>
-             <button class="btn btn-default btn-lg"><i class="fa fa-paw fa-fw"></i> Get Started!</button>
-           </div>
-         </div>
-       </div>
+    </div>
 
+    <div id="about" class="row">
+      <div class="col-lg-6 col-sm-6 aboutLeft">
+        <div class="me">
+          <h1>ABOUT ME</h1>
+          <h3>WEB DEVELOPER. CODE LOVER</h3>
+          <hr>
+          <p>
+          Melbourne based Web Developer who likes coding and beautiful
+          cool website. Enjoying traveling and playing games.
+          <br>
+          I am a passionate coder, and like to learn and try new technoloies
+          and creative things. I can build responsive applications with HTML5,
+          CSS3, JavaScript, JQuery, AJAX, GIT, React, Ruby on Rails and SQL.
+          <br />
+          Email: youyehong@gmail.com
+          </p>
+        </div>
+      </div>
 
+      <div class="col-lg-6 col-sm-6 aboutRight">
+        <div class="canvas">
 
-
-
+        </div>
+      </div>
 
     </div>
 
